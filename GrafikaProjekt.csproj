@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\apple.obj" />
+    <None Remove="Resources\skybox.png" />
+    <None Remove="Resources\Squirrel.obj" />
+    <None Remove="Shaders\FragmentShader.frag" />
+    <None Remove="Shaders\VertexShader.vert" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\apple.obj" />
+    <EmbeddedResource Include="Resources\skybox.png" />
+    <EmbeddedResource Include="Resources\squirrel.obj" />
+    <EmbeddedResource Include="Shaders\FragmentShader.frag" />
+    <EmbeddedResource Include="Shaders\VertexShader.vert" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ImGui.NET" Version="1.89.9.3" />
+    <PackageReference Include="Silk.NET.Core" Version="2.21.0" />
+    <PackageReference Include="Silk.NET.GLFW" Version="2.21.0" />
+    <PackageReference Include="Silk.NET.OpenGL" Version="2.21.0" />
+    <PackageReference Include="Silk.NET.OpenGL.Extensions.ImGui" Version="2.21.0" />
+    <PackageReference Include="SilkyNvg.Images" Version="1.1.0" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,94 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\egyetem\\masodik ev\\masodik felev\\grafika\\GrafikaProjekt\\GrafikaProjekt\\GrafikaProjekt.csproj": {}
+  },
+  "projects": {
+    "C:\\egyetem\\masodik ev\\masodik felev\\grafika\\GrafikaProjekt\\GrafikaProjekt\\GrafikaProjekt.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\egyetem\\masodik ev\\masodik felev\\grafika\\GrafikaProjekt\\GrafikaProjekt\\GrafikaProjekt.csproj",
+        "projectName": "GrafikaProjekt",
+        "projectPath": "C:\\egyetem\\masodik ev\\masodik felev\\grafika\\GrafikaProjekt\\GrafikaProjekt\\GrafikaProjekt.csproj",
+        "packagesPath": "C:\\Users\\popov\\.nuget\\packages\\",
+        "outputPath": "C:\\egyetem\\masodik ev\\masodik felev\\grafika\\GrafikaProjekt\\GrafikaProjekt\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\popov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "ImGui.NET": {
+              "target": "Package",
+              "version": "[1.89.9.3, )"
+            },
+            "Silk.NET.Core": {
+              "target": "Package",
+              "version": "[2.21.0, )"
+            },
+            "Silk.NET.GLFW": {
+              "target": "Package",
+              "version": "[2.21.0, )"
+            },
+            "Silk.NET.OpenGL": {
+              "target": "Package",
+              "version": "[2.21.0, )"
+            },
+            "Silk.NET.OpenGL.Extensions.ImGui": {
+              "target": "Package",
+              "version": "[2.21.0, )"
+            },
+            "SilkyNvg.Images": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
